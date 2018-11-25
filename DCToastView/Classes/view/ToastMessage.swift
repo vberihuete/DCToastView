@@ -51,7 +51,8 @@ class ToastMessage: UIView {
     /// Setups the view
     func setup(){
         //inflate view
-        Bundle.main.loadNibNamed(String(describing: type(of: self)), owner: self)
+        let bundle = Bundle(for: self.classForCoder)
+        bundle.loadNibNamed(String(describing: type(of: self)), owner: self)
         addSubview(containerView)
         containerView.frame = self.bounds
         containerView.autoresizingMask = [.flexibleHeight, .flexibleWidth]

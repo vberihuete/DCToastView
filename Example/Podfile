@@ -3,9 +3,4 @@ use_frameworks!
 target 'DCToastView_Example' do
   pod 'DCToastView', :path => '../'
 
-  target 'DCToastView_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-  end
 end

@@ -1,5 +1,5 @@
 import XCTest
-import DCToastView
+//import DCToastView
 
 class Tests: XCTestCase {
     

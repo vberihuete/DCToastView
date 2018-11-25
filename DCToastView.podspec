@@ -1,15 +1,8 @@
-#
-# Be sure to run `pod lib lint DCToastView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'DCToastView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DCToastView.'
+  s.summary          = 'A Toast View made in swift using auto layout and stack views'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +11,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+
+  This is part of the DC UI libraries to handle a simple Stack view and Auto layout friendly Toast View
+  
                        DESC
 
   s.homepage         = 'https://github.com/vberihuete/DCToastView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'vberihuete' => 'vincentberihuete809@gmail.com' }
+  s.author           = { 'vberihuete' => 'vberihuete@gmail.com' }
   s.source           = { :git => 'https://github.com/vberihuete/DCToastView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/vberihuete'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'DCToastView/Classes/**/*'
   
