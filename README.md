@@ -7,7 +7,7 @@
 
 A Toast View made in swift using auto layout and stack views.
 
-![sample gif](https://media.giphy.com/media/d5pSYtMrpkp2XDO6ev/giphy.gif)
+![sample gif](https://media.giphy.com/media/iAQniXu33l8LvPPjQO/giphy.gif)
 
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
