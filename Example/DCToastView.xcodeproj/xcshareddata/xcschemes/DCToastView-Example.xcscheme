@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "DCToastView_Tests.xctest"
-               BlueprintName = "DCToastView_Tests"
+               BlueprintIdentifier = "9FBEF40621AB55280089BE91"
+               BuildableName = "DCToastView_ExampleUITests.xctest"
+               BlueprintName = "DCToastView_ExampleUITests"
                ReferencedContainer = "container:DCToastView.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9FBEF40A21AB55280089BE91 /* DCToastView_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBEF40921AB55280089BE91 /* DCToastView_ExampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +24,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = DCToastView;
+		};
+		9FBEF40C21AB55280089BE91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = DCToastView_Example;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,6 +49,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		87DA30D0A1E16B957AC3D31B /* Pods-DCToastView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCToastView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCToastView_Example/Pods-DCToastView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9903373EDF892A7DC9DC3DC4 /* Pods-DCToastView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCToastView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCToastView_Example/Pods-DCToastView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9FBEF40721AB55280089BE91 /* DCToastView_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCToastView_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBEF40921AB55280089BE91 /* DCToastView_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCToastView_ExampleUITests.swift; sourceTree = "<group>"; };
+		9FBEF40B21AB55280089BE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7C0B2E69552BC4450AAE32D /* Pods_DCToastView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCToastView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB74154299DF45D3301C447E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D3692356F45D025F7B77BDED /* DCToastView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DCToastView.podspec; path = ../DCToastView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -62,6 +73,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FBEF40421AB55280089BE91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -71,6 +89,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for DCToastView */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				9FBEF40821AB55280089BE91 /* DCToastView_ExampleUITests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				EBB3E5A7B650FCE976279054 /* Pods */,
 				8B7C2ABA88E5455801E5500C /* Frameworks */,
@@ -82,6 +101,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* DCToastView_Example.app */,
 				607FACE51AFB9204008FA782 /* DCToastView_Tests.xctest */,
+				9FBEF40721AB55280089BE91 /* DCToastView_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +164,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9FBEF40821AB55280089BE91 /* DCToastView_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FBEF40921AB55280089BE91 /* DCToastView_ExampleUITests.swift */,
+				9FBEF40B21AB55280089BE91 /* Info.plist */,
+			);
+			path = DCToastView_ExampleUITests;
+			sourceTree = "<group>";
+		};
 		EBB3E5A7B650FCE976279054 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,13 +222,31 @@
 			productReference = 607FACE51AFB9204008FA782 /* DCToastView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9FBEF40621AB55280089BE91 /* DCToastView_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FBEF40E21AB55280089BE91 /* Build configuration list for PBXNativeTarget "DCToastView_ExampleUITests" */;
+			buildPhases = (
+				9FBEF40321AB55280089BE91 /* Sources */,
+				9FBEF40421AB55280089BE91 /* Frameworks */,
+				9FBEF40521AB55280089BE91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FBEF40D21AB55280089BE91 /* PBXTargetDependency */,
+			);
+			name = DCToastView_ExampleUITests;
+			productName = DCToastView_ExampleUITests;
+			productReference = 9FBEF40721AB55280089BE91 /* DCToastView_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -210,6 +257,11 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					9FBEF40621AB55280089BE91 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -229,6 +281,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* DCToastView_Example */,
 				607FACE41AFB9204008FA782 /* DCToastView_Tests */,
+				9FBEF40621AB55280089BE91 /* DCToastView_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +298,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBEF40521AB55280089BE91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,6 +370,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FBEF40321AB55280089BE91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBEF40A21AB55280089BE91 /* DCToastView_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -317,6 +385,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* DCToastView_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		9FBEF40D21AB55280089BE91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* DCToastView_Example */;
+			targetProxy = 9FBEF40C21AB55280089BE91 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -511,6 +584,57 @@
 			};
 			name = Release;
 		};
+		9FBEF40F21AB55280089BE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DCToastView_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devcorerd.DCToastView-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DCToastView_Example;
+			};
+			name = Debug;
+		};
+		9FBEF41021AB55280089BE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DCToastView_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devcorerd.DCToastView-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DCToastView_Example;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -537,6 +661,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FBEF40E21AB55280089BE91 /* Build configuration list for PBXNativeTarget "DCToastView_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBEF40F21AB55280089BE91 /* Debug */,
+				9FBEF41021AB55280089BE91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
