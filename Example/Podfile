@@ -1,6 +1,0 @@
-use_frameworks!
-
-target 'DCToastView_Example' do
-  pod 'DCToastView', :path => '../'
-
-end

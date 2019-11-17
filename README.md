@@ -1,16 +1,9 @@
-# DCToastView
+# DCToast
 
-[![CI Status](https://img.shields.io/travis/vberihuete/DCToastView.svg?style=flat)](https://travis-ci.org/vberihuete/DCToastView)
-[![Version](https://img.shields.io/cocoapods/v/DCToastView.svg?style=flat)](https://cocoapods.org/pods/DCToastView)
-[![License](https://img.shields.io/cocoapods/l/DCToastView.svg?style=flat)](https://cocoapods.org/pods/DCToastView)
-[![Platform](https://img.shields.io/cocoapods/p/DCToastView.svg?style=flat)](https://cocoapods.org/pods/DCToastView)
 
 A Toast View made in swift using auto layout and stack views.
 
 ![sample gif](https://media.giphy.com/media/iAQniXu33l8LvPPjQO/giphy.gif)
-
-## Example
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
@@ -18,12 +11,8 @@ iOS 11 or above and swift 4.2
 
 ## Installation
 
-DCToastView is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'DCToastView'
-```
+DCToastView is available through Swift package manager. To install
+it, simply add this git repository into your xcode spm depenencies:
 
 ## How to
 
