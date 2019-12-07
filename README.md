@@ -19,7 +19,7 @@ it, simply add this git repository into your xcode spm depenencies:
 After you have your cocoapods set up done and already added the pod for DCToastView, you just need to import in the View Controller you will like to use the Filter View.
 
 ```swift
-import DCToastView
+import DCToast
 ```
 
 Then just call the shared Toast Presenter instance to show or remove a toast message 
