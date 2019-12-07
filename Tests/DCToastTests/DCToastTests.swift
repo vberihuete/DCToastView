@@ -5,7 +5,7 @@ import SnapshotTesting
 final class DCToastTests: XCTestCase {
     
     let timeout: TimeInterval = 10
-    let record = true
+    let record = false
     
     func testLongMessage() {
         let message = """
